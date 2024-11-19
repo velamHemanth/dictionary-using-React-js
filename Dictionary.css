@@ -1,0 +1,59 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url(
+'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,300&display=swap');
+
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+.sub-app{
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+}
+.sub-app h1{
+    margin-bottom: 20px;
+    color:  green;
+    font-family:'Pacifico', cursive ;
+}
+.Search-box{
+    margin: 5px;
+}
+.Search-box input{
+    padding: 5px 15px;
+    background-color: hotpink;
+    border: none;
+    border-radius: 10px;
+}
+.Search-box button{
+    padding: 5px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(70, 224, 70);
+    color: white;
+}
+.showresult h2{
+    color: black;
+}
+.showresult button{
+    border: none;
+    background-color: aliceblue;
+    color: firebrick;
+}
+.showresult h4{
+    color: rgb(14, 130, 107);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.showresult p{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
